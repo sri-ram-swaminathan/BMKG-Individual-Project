@@ -1,0 +1,181 @@
+@prefix dbpedia: <https://dbpedia.org/property> .
+@prefix dbpediaclass: <https://dbpedia.org/page> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sofifa: <https://sofifa.com> .
+@prefix sportsschema: <https://sportschema.org/ontologies/soccer> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+dbpedia:90s a rdf:Property ;
+    rdfs:domain sofifa:player ;
+    rdfs:range xsd:integer .
+
+dbpedia:IntReputation a rdf:Property ;
+    rdfs:domain sofifa:player ;
+    rdfs:range xsd:integer .
+
+dbpedia:Potential a rdf:Property ;
+    rdfs:domain sofifa:player ;
+    rdfs:range xsd:integer .
+
+dbpedia:attackingworkrate a rdf:Property ;
+    rdfs:domain sofifa:player ;
+    rdfs:range xsd:integer .
+
+dbpedia:contractuntil a rdf:Property ;
+    rdfs:domain sofifa:player ;
+    rdfs:range xsd:dateTime .
+
+dbpedia:defending a rdf:Property ;
+    rdfs:domain sofifa:player ;
+    rdfs:range xsd:integer .
+
+dbpedia:defensiveworkrate a rdf:Property ;
+    rdfs:domain sofifa:player ;
+    rdfs:range xsd:integer .
+
+dbpedia:dribbling a rdf:Property ;
+    rdfs:domain sofifa:player ;
+    rdfs:range xsd:integer .
+
+dbpedia:gkdiving a rdf:Property ;
+    rdfs:domain sofifa:player ;
+    rdfs:range xsd:integer .
+
+dbpedia:gkhandling a rdf:Property ;
+    rdfs:domain sofifa:player ;
+    rdfs:range xsd:integer .
+
+dbpedia:gkkicking a rdf:Property ;
+    rdfs:domain sofifa:player ;
+    rdfs:range xsd:integer .
+
+dbpedia:gkpositioning a rdf:Property ;
+    rdfs:domain sofifa:player ;
+    rdfs:range xsd:integer .
+
+dbpedia:gkreflexes a rdf:Property ;
+    rdfs:domain sofifa:player ;
+    rdfs:range xsd:integer .
+
+dbpedia:matchesplayed a rdf:Property ;
+    rdfs:domain sofifa:player ;
+    rdfs:range xsd:integer .
+
+dbpedia:minutes a rdf:Property ;
+    rdfs:domain sofifa:player ;
+    rdfs:range xsd:float .
+
+dbpedia:overallRating a rdf:Property ;
+    rdfs:domain sofifa:player ;
+    rdfs:range xsd:integer .
+
+dbpedia:pace a rdf:Property ;
+    rdfs:domain sofifa:player ;
+    rdfs:range xsd:integer .
+
+dbpedia:passing a rdf:Property ;
+    rdfs:domain sofifa:player ;
+    rdfs:range xsd:integer .
+
+dbpedia:physicality a rdf:Property ;
+    rdfs:domain sofifa:player ;
+    rdfs:range xsd:integer .
+
+dbpedia:shooting a rdf:Property ;
+    rdfs:domain sofifa:player ;
+    rdfs:range xsd:integer .
+
+dbpedia:skillmoves a rdf:Property ;
+    rdfs:domain sofifa:player ;
+    rdfs:range xsd:integer .
+
+dbpedia:starts a rdf:Property ;
+    rdfs:domain sofifa:player ;
+    rdfs:range xsd:integer .
+
+dbpedia:value a rdf:Property ;
+    rdfs:domain sofifa:player ;
+    rdfs:range xsd:float .
+
+sportsschema:aerialsWon a rdf:Property ;
+    rdfs:domain sofifa:player ;
+    rdfs:range xsd:integer .
+
+sportsschema:assistsTotal a rdf:Property ;
+    rdfs:domain sofifa:player ;
+    rdfs:range xsd:integer .
+
+sportsschema:clearancesSuccessful a rdf:Property ;
+    rdfs:domain sofifa:player ;
+    rdfs:range xsd:integer .
+
+sportsschema:foulsCommited a rdf:Property ;
+    rdfs:domain sofifa:player ;
+    rdfs:range xsd:integer .
+
+sportsschema:foulsSuffered a rdf:Property ;
+    rdfs:domain sofifa:player ;
+    rdfs:range xsd:integer .
+
+sportsschema:goalsTotal a rdf:Property ;
+    rdfs:domain sofifa:player ;
+    rdfs:range xsd:integer .
+
+sportsschema:interceptions a rdf:Property ;
+    rdfs:domain sofifa:player ;
+    rdfs:range xsd:integer .
+
+sportsschema:passesCompleteLong a rdf:Property ;
+    rdfs:domain sofifa:player ;
+    rdfs:range xsd:integer .
+
+sportsschema:passesCompletePercentage a rdf:Property ;
+    rdfs:domain sofifa:player ;
+    rdfs:range xsd:float .
+
+sportsschema:shotsOnGoalTotal a rdf:Property ;
+    rdfs:domain sofifa:player ;
+    rdfs:range xsd:integer .
+
+sportsschema:touches a rdf:Property ;
+    rdfs:domain sofifa:player ;
+    rdfs:range xsd:integer .
+
+<https://www.wikidata.org/wikiProperty:P1477> a rdf:Property ;
+    rdfs:label "Name" ;
+    rdfs:domain sofifa:player ;
+    rdfs:range rdfs:Literal .
+
+<https://www.wikidata.org/wikiProperty:P2048> a rdf:Property ;
+    rdfs:label "Height" ;
+    rdfs:domain sofifa:player ;
+    rdfs:range xsd:float .
+
+<https://www.wikidata.org/wikiProperty:P27> a rdf:Property ;
+    rdfs:label "Nationality" ;
+    rdfs:domain sofifa:player ;
+    rdfs:range rdfs:Literal .
+
+<https://www.wikidata.org/wikiProperty:P413> a rdf:Property ;
+    rdfs:label "Position" ;
+    rdfs:domain sofifa:player ;
+    rdfs:range rdfs:Literal .
+
+<https://www.wikidata.org/wikiProperty:P8006> a rdf:Property ;
+    rdfs:label "Preferred Foot" ;
+    rdfs:domain sofifa:player ;
+    rdfs:range rdfs:Literal .
+
+<https://www.wikidata.org/wikihttps://www.wikidata.org/wiki/Property:P54> a rdf:Property ;
+    rdfs:label "Club" ;
+    rdfs:domain sofifa:player ;
+    rdfs:range xsd:string .
+
+<https://www.wikidata.org/wikiwiki/Q21821348> a rdf:Property ;
+    rdfs:label "Birth Year" ;
+    rdfs:domain sofifa:player ;
+    rdfs:range xsd:dateTime .
+
+sofifa:player a dbpediaclass:Football_player .
+

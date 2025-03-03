@@ -9,11 +9,6 @@
 @prefix wikidata: <https://www.wikidata.org/wiki/> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-dbpedia:90s a rdf:Property ;
-    rdfs:domain sofifa:player ;
-    rdfs:range rdf:Seq ;
-    owl:equivalentProperty fb:90s .
-
 dbpedia:IntReputation a rdf:Property ;
     rdfs:domain sofifa:player ;
     rdfs:range rdf:Seq ;
@@ -28,6 +23,11 @@ dbpedia:attackingworkrate a rdf:Property ;
     rdfs:domain sofifa:player ;
     rdfs:range rdf:Seq ;
     owl:equivalentProperty fb:attackingworkrate .
+
+dbpedia:club a rdf:Property ;
+    rdfs:domain sofifa:player ;
+    rdfs:range rdf:Seq ;
+    owl:equivalentProperty fb:club .
 
 dbpedia:contractuntil a rdf:Property ;
     rdfs:domain sofifa:player ;
@@ -48,6 +48,11 @@ dbpedia:dribbling a rdf:Property ;
     rdfs:domain sofifa:player ;
     rdfs:range rdf:Seq ;
     owl:equivalentProperty fb:dribbling .
+
+dbpedia:fts a rdf:Property ;
+    rdfs:domain sofifa:player ;
+    rdfs:range rdf:Seq ;
+    owl:equivalentProperty fb:fts .
 
 dbpedia:gkdiving a rdf:Property ;
     rdfs:domain sofifa:player ;
@@ -222,5 +227,5 @@ wikidata:Q21821348 a rdf:Property ;
     owl:equivalentProperty fb:birthyear .
 
 sofifa:player a dbpediaclass:Football_player ;
-    owl:equivalentClass fb:Player .
+    owl:equivalentClass fb:player .
 

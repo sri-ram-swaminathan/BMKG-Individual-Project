@@ -1,181 +1,226 @@
 @prefix dbpedia: <https://dbpedia.org/property> .
 @prefix dbpediaclass: <https://dbpedia.org/page> .
+@prefix fb: <https://footballerontology.com> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix sofifa: <https://sofifa.com> .
 @prefix sportsschema: <https://sportschema.org/ontologies/soccer> .
+@prefix wikidata: <https://www.wikidata.org/wiki/> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 dbpedia:90s a rdf:Property ;
     rdfs:domain sofifa:player ;
-    rdfs:range xsd:integer .
+    rdfs:range rdf:Seq ;
+    owl:equivalentProperty fb:90s .
 
 dbpedia:IntReputation a rdf:Property ;
     rdfs:domain sofifa:player ;
-    rdfs:range xsd:integer .
+    rdfs:range rdf:Seq ;
+    owl:equivalentProperty fb:IntReputation .
 
 dbpedia:Potential a rdf:Property ;
     rdfs:domain sofifa:player ;
-    rdfs:range xsd:integer .
+    rdfs:range rdf:Seq ;
+    owl:equivalentProperty fb:Potential .
 
 dbpedia:attackingworkrate a rdf:Property ;
     rdfs:domain sofifa:player ;
-    rdfs:range xsd:integer .
+    rdfs:range rdf:Seq ;
+    owl:equivalentProperty fb:attackingworkrate .
 
 dbpedia:contractuntil a rdf:Property ;
     rdfs:domain sofifa:player ;
-    rdfs:range xsd:dateTime .
+    rdfs:range rdf:Seq ;
+    owl:equivalentProperty fb:contractuntil .
 
 dbpedia:defending a rdf:Property ;
     rdfs:domain sofifa:player ;
-    rdfs:range xsd:integer .
+    rdfs:range rdf:Seq ;
+    owl:equivalentProperty fb:defending .
 
 dbpedia:defensiveworkrate a rdf:Property ;
     rdfs:domain sofifa:player ;
-    rdfs:range xsd:integer .
+    rdfs:range rdf:Seq ;
+    owl:equivalentProperty fb:defensiveworkrate .
 
 dbpedia:dribbling a rdf:Property ;
     rdfs:domain sofifa:player ;
-    rdfs:range xsd:integer .
+    rdfs:range rdf:Seq ;
+    owl:equivalentProperty fb:dribbling .
 
 dbpedia:gkdiving a rdf:Property ;
     rdfs:domain sofifa:player ;
-    rdfs:range xsd:integer .
+    rdfs:range rdf:Seq ;
+    owl:equivalentProperty fb:gkdiving .
 
 dbpedia:gkhandling a rdf:Property ;
     rdfs:domain sofifa:player ;
-    rdfs:range xsd:integer .
+    rdfs:range rdf:Seq ;
+    owl:equivalentProperty fb:gkhandling .
 
 dbpedia:gkkicking a rdf:Property ;
     rdfs:domain sofifa:player ;
-    rdfs:range xsd:integer .
+    rdfs:range rdf:Seq ;
+    owl:equivalentProperty fb:gkkicking .
 
 dbpedia:gkpositioning a rdf:Property ;
     rdfs:domain sofifa:player ;
-    rdfs:range xsd:integer .
+    rdfs:range rdf:Seq ;
+    owl:equivalentProperty fb:gkpositioning .
 
 dbpedia:gkreflexes a rdf:Property ;
     rdfs:domain sofifa:player ;
-    rdfs:range xsd:integer .
+    rdfs:range rdf:Seq ;
+    owl:equivalentProperty fb:gkreflexes .
 
 dbpedia:matchesplayed a rdf:Property ;
     rdfs:domain sofifa:player ;
-    rdfs:range xsd:integer .
+    rdfs:range rdf:Seq ;
+    owl:equivalentProperty fb:matchesplayed .
 
 dbpedia:minutes a rdf:Property ;
     rdfs:domain sofifa:player ;
-    rdfs:range xsd:float .
+    rdfs:range rdf:Seq ;
+    owl:equivalentProperty fb:minutes .
 
 dbpedia:overallRating a rdf:Property ;
     rdfs:domain sofifa:player ;
-    rdfs:range xsd:integer .
+    rdfs:range rdf:Seq ;
+    owl:equivalentProperty fb:overallRating .
 
 dbpedia:pace a rdf:Property ;
     rdfs:domain sofifa:player ;
-    rdfs:range xsd:integer .
+    rdfs:range rdf:Seq ;
+    owl:equivalentProperty fb:pace .
 
 dbpedia:passing a rdf:Property ;
     rdfs:domain sofifa:player ;
-    rdfs:range xsd:integer .
+    rdfs:range rdf:Seq ;
+    owl:equivalentProperty fb:passing .
 
 dbpedia:physicality a rdf:Property ;
     rdfs:domain sofifa:player ;
-    rdfs:range xsd:integer .
+    rdfs:range rdf:Seq ;
+    owl:equivalentProperty fb:physicality .
 
 dbpedia:shooting a rdf:Property ;
     rdfs:domain sofifa:player ;
-    rdfs:range xsd:integer .
+    rdfs:range rdf:Seq ;
+    owl:equivalentProperty fb:shooting .
 
 dbpedia:skillmoves a rdf:Property ;
     rdfs:domain sofifa:player ;
-    rdfs:range xsd:integer .
+    rdfs:range rdf:Seq ;
+    owl:equivalentProperty fb:skillmoves .
 
 dbpedia:starts a rdf:Property ;
     rdfs:domain sofifa:player ;
-    rdfs:range xsd:integer .
+    rdfs:range rdf:Seq ;
+    owl:equivalentProperty fb:starts .
 
 dbpedia:value a rdf:Property ;
     rdfs:domain sofifa:player ;
-    rdfs:range xsd:float .
+    rdfs:range rdf:Seq ;
+    owl:equivalentProperty fb:value .
 
 sportsschema:aerialsWon a rdf:Property ;
     rdfs:domain sofifa:player ;
-    rdfs:range xsd:integer .
+    rdfs:range rdf:Seq ;
+    owl:equivalentProperty fb:aerialsWon .
 
 sportsschema:assistsTotal a rdf:Property ;
     rdfs:domain sofifa:player ;
-    rdfs:range xsd:integer .
+    rdfs:range rdf:Seq ;
+    owl:equivalentProperty fb:assistsTotal .
 
 sportsschema:clearancesSuccessful a rdf:Property ;
     rdfs:domain sofifa:player ;
-    rdfs:range xsd:integer .
+    rdfs:range rdf:Seq ;
+    owl:equivalentProperty fb:clearancesSuccessful .
 
 sportsschema:foulsCommited a rdf:Property ;
     rdfs:domain sofifa:player ;
-    rdfs:range xsd:integer .
+    rdfs:range rdf:Seq ;
+    owl:equivalentProperty fb:foulsCommited .
 
 sportsschema:foulsSuffered a rdf:Property ;
     rdfs:domain sofifa:player ;
-    rdfs:range xsd:integer .
+    rdfs:range rdf:Seq ;
+    owl:equivalentProperty fb:foulsSuffered .
 
 sportsschema:goalsTotal a rdf:Property ;
     rdfs:domain sofifa:player ;
-    rdfs:range xsd:integer .
+    rdfs:range rdf:Seq ;
+    owl:equivalentProperty fb:goalsTotal .
 
 sportsschema:interceptions a rdf:Property ;
     rdfs:domain sofifa:player ;
-    rdfs:range xsd:integer .
+    rdfs:range rdf:Seq ;
+    owl:equivalentProperty fb:interceptions .
 
 sportsschema:passesCompleteLong a rdf:Property ;
     rdfs:domain sofifa:player ;
-    rdfs:range xsd:integer .
+    rdfs:range rdf:Seq ;
+    owl:equivalentProperty fb:passesCompleteLong .
 
 sportsschema:passesCompletePercentage a rdf:Property ;
     rdfs:domain sofifa:player ;
-    rdfs:range xsd:float .
+    rdfs:range rdf:Seq ;
+    owl:equivalentProperty fb:passesCompletePercentage .
 
 sportsschema:shotsOnGoalTotal a rdf:Property ;
     rdfs:domain sofifa:player ;
-    rdfs:range xsd:integer .
+    rdfs:range rdf:Seq ;
+    owl:equivalentProperty fb:shotsOnGoalTotal .
 
 sportsschema:touches a rdf:Property ;
     rdfs:domain sofifa:player ;
-    rdfs:range xsd:integer .
+    rdfs:range rdf:Seq ;
+    owl:equivalentProperty fb:touches .
 
-<https://www.wikidata.org/wikiProperty:P1477> a rdf:Property ;
-    rdfs:label "Name" ;
+<https://www.wikidata.org/wiki/Property:P1477> a rdf:Property ;
+    rdfs:label "name" ;
     rdfs:domain sofifa:player ;
-    rdfs:range rdfs:Literal .
+    rdfs:range rdfs:Literal ;
+    owl:equivalentProperty fb:name .
 
-<https://www.wikidata.org/wikiProperty:P2048> a rdf:Property ;
-    rdfs:label "Height" ;
+<https://www.wikidata.org/wiki/Property:P2048> a rdf:Property ;
+    rdfs:label "height" ;
     rdfs:domain sofifa:player ;
-    rdfs:range xsd:float .
+    rdfs:range xsd:float ;
+    owl:equivalentProperty fb:height .
 
-<https://www.wikidata.org/wikiProperty:P27> a rdf:Property ;
-    rdfs:label "Nationality" ;
+<https://www.wikidata.org/wiki/Property:P27> a rdf:Property ;
+    rdfs:label "nationality" ;
     rdfs:domain sofifa:player ;
-    rdfs:range rdfs:Literal .
+    rdfs:range rdfs:Literal ;
+    owl:equivalentProperty fb:nationality .
 
-<https://www.wikidata.org/wikiProperty:P413> a rdf:Property ;
-    rdfs:label "Position" ;
+<https://www.wikidata.org/wiki/Property:P413> a rdf:Property ;
+    rdfs:label "position" ;
     rdfs:domain sofifa:player ;
-    rdfs:range rdfs:Literal .
+    rdfs:range rdfs:Literal ;
+    owl:equivalentProperty fb:position .
 
-<https://www.wikidata.org/wikiProperty:P8006> a rdf:Property ;
-    rdfs:label "Preferred Foot" ;
+<https://www.wikidata.org/wiki/Property:P54> a rdf:Property ;
+    rdfs:label "club" ;
     rdfs:domain sofifa:player ;
-    rdfs:range rdfs:Literal .
+    rdfs:range rdf:Seq ;
+    owl:equivalentProperty fb:club .
 
-<https://www.wikidata.org/wikihttps://www.wikidata.org/wiki/Property:P54> a rdf:Property ;
-    rdfs:label "Club" ;
+<https://www.wikidata.org/wiki/Property:P8006> a rdf:Property ;
+    rdfs:label "preferredfoot" ;
     rdfs:domain sofifa:player ;
-    rdfs:range xsd:string .
+    rdfs:range rdfs:Literal ;
+    owl:equivalentProperty fb:preferredfoot .
 
-<https://www.wikidata.org/wikiwiki/Q21821348> a rdf:Property ;
-    rdfs:label "Birth Year" ;
+wikidata:Q21821348 a rdf:Property ;
+    rdfs:label "birthyear" ;
     rdfs:domain sofifa:player ;
-    rdfs:range xsd:dateTime .
+    rdfs:range xsd:dateTime ;
+    owl:equivalentProperty fb:birthyear .
 
-sofifa:player a dbpediaclass:Football_player .
+sofifa:player a dbpediaclass:Football_player ;
+    owl:equivalentClass fb:Player .
 

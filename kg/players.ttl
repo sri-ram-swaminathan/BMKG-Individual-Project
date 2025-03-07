@@ -1,6 +1,6 @@
 @prefix dbpedia: <https://dbpedia.org/property> .
 @prefix dbpediaclass: <https://dbpedia.org/page> .
-@prefix fb: <https://footballerontology.com> .
+@prefix fb: <https://footballerontology.com/> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
@@ -58928,69 +58928,6 @@ dbpedia:value a rdf:Property ;
         "72.0"^^xsd:float ;
     fb:value "3100000"^^xsd:float,
         "4400000"^^xsd:float .
-
-<https://footballerontology.com/player/247026> a fb:player ;
-    fb:aerialswon "1.07"^^xsd:float,
-        "1.48"^^xsd:float ;
-    fb:assiststotal "0.0"^^xsd:float,
-        "0.37"^^xsd:float ;
-    fb:attackingworkrate "Medium" ;
-    fb:birthyear 1999 ;
-    fb:clearancessuccessful "1.11"^^xsd:float,
-        "1.31"^^xsd:float ;
-    fb:club "1. FC Union Berlin",
-        "Free agent" ;
-    fb:contractuntil 2025.0,
-        nan ;
-    fb:defending 61,
-        62 ;
-    fb:defensiveworkrate "Medium" ;
-    fb:dribbling 69,
-        70 ;
-    fb:foulscommitted "1.43"^^xsd:float,
-        "2.59"^^xsd:float ;
-    fb:foulssuffered "0.74"^^xsd:float,
-        "1.67"^^xsd:float ;
-    fb:fts "2.7"^^xsd:float,
-        "8.4"^^xsd:float ;
-    fb:goalstotal "0"^^xsd:float,
-        "0.37"^^xsd:float ;
-    fb:height "180"^^xsd:float ;
-    fb:interceptions "0.48"^^xsd:float,
-        "1.85"^^xsd:float ;
-    fb:intreputation 1 ;
-    fb:matchesplayed 8,
-        13 ;
-    fb:minutes 239,
-        754 ;
-    fb:name "András Schäfer" ;
-    fb:nationality "Hungary" ;
-    fb:overallrating 68,
-        70 ;
-    fb:pace 72,
-        74 ;
-    fb:passescompletelong "0.83"^^xsd:float,
-        "2.22"^^xsd:float ;
-    fb:passescompletepercentage "73.3"^^xsd:float,
-        "76.4"^^xsd:float ;
-    fb:passing 64,
-        66 ;
-    fb:physicality 59 ;
-    fb:position "RM" ;
-    fb:potential 79 ;
-    fb:preferredfoot "Right" ;
-    fb:shooting 58,
-        61 ;
-    fb:shotsongoaltotal "0.12"^^xsd:float,
-        "1.11"^^xsd:float ;
-    fb:skillmoves 2,
-        3 ;
-    fb:starts 1,
-        9 ;
-    fb:touches "40.0"^^xsd:float,
-        "45.2"^^xsd:float ;
-    fb:value "0"^^xsd:float,
-        "3500000"^^xsd:float .
 
 <https://footballerontology.com/player/247028> a fb:player ;
     fb:aerialswon "1.0"^^xsd:float,

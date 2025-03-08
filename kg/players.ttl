@@ -160,6 +160,8 @@ dbpedia:value a rdf:Property ;
         "12.0"^^xsd:float ;
     fb:passescompletepercentage "83.1"^^xsd:float,
         "85.3"^^xsd:float ;
+    fb:passing 60 ;
+    fb:physicality 70 ;
     fb:position "GK" ;
     fb:potential 70 ;
     fb:preferredfoot "Left" ;
@@ -454,6 +456,10 @@ dbpedia:value a rdf:Property ;
         "12.6"^^xsd:float ;
     fb:passescompletepercentage "69.3"^^xsd:float,
         "69.8"^^xsd:float ;
+    fb:passing 75,
+        77 ;
+    fb:physicality 76,
+        78 ;
     fb:position "GK" ;
     fb:potential 75,
         79 ;
@@ -564,6 +570,10 @@ dbpedia:value a rdf:Property ;
         "15.4"^^xsd:float ;
     fb:passescompletepercentage "78.2"^^xsd:float,
         "78.7"^^xsd:float ;
+    fb:passing 71,
+        72 ;
+    fb:physicality 78,
+        80 ;
     fb:position "GK" ;
     fb:potential 80,
         81 ;
@@ -612,6 +622,10 @@ dbpedia:value a rdf:Property ;
         "10.3"^^xsd:float ;
     fb:passescompletepercentage "72.0"^^xsd:float,
         "75.2"^^xsd:float ;
+    fb:passing 79,
+        80 ;
+    fb:physicality 81,
+        83 ;
     fb:position "GK" ;
     fb:potential 83,
         85 ;
@@ -661,6 +675,10 @@ dbpedia:value a rdf:Property ;
         "9.56"^^xsd:float ;
     fb:passescompletepercentage "72.2"^^xsd:float,
         "80.6"^^xsd:float ;
+    fb:passing 74,
+        78 ;
+    fb:physicality 77,
+        81 ;
     fb:position "GK" ;
     fb:potential 79,
         81 ;
@@ -826,6 +844,9 @@ dbpedia:value a rdf:Property ;
         "14.3"^^xsd:float ;
     fb:passescompletepercentage "87.7"^^xsd:float,
         "89.1"^^xsd:float ;
+    fb:passing 91 ;
+    fb:physicality 89,
+        91 ;
     fb:position "GK" ;
     fb:potential 90 ;
     fb:preferredfoot "Right" ;
@@ -869,6 +890,9 @@ dbpedia:value a rdf:Property ;
         "6.55"^^xsd:float ;
     fb:passescompletepercentage "78.9"^^xsd:float,
         "79.1"^^xsd:float ;
+    fb:passing 65,
+        74 ;
+    fb:physicality 84 ;
     fb:position "GK" ;
     fb:potential 87 ;
     fb:preferredfoot "Left" ;
@@ -967,6 +991,8 @@ dbpedia:value a rdf:Property ;
         "15.5"^^xsd:float ;
     fb:passescompletepercentage "50.0"^^xsd:float,
         "80.4"^^xsd:float ;
+    fb:passing 77 ;
+    fb:physicality 74 ;
     fb:position "GK" ;
     fb:potential 74 ;
     fb:preferredfoot "Right" ;
@@ -1131,6 +1157,10 @@ dbpedia:value a rdf:Property ;
         "8.21"^^xsd:float ;
     fb:passescompletepercentage "58.2"^^xsd:float,
         "81.4"^^xsd:float ;
+    fb:passing 64,
+        67 ;
+    fb:physicality 74,
+        75 ;
     fb:position "GK" ;
     fb:potential 75,
         76 ;
@@ -1419,6 +1449,8 @@ dbpedia:value a rdf:Property ;
         "9.44"^^xsd:float ;
     fb:passescompletepercentage "55.6"^^xsd:float,
         "64.1"^^xsd:float ;
+    fb:passing 84 ;
+    fb:physicality 78 ;
     fb:position "GK" ;
     fb:potential 78 ;
     fb:preferredfoot "Right" ;
@@ -1642,6 +1674,8 @@ dbpedia:value a rdf:Property ;
         "17.0"^^xsd:float ;
     fb:passescompletepercentage "65.5"^^xsd:float,
         "83.0"^^xsd:float ;
+    fb:passing 76 ;
+    fb:physicality 69 ;
     fb:position "GK" ;
     fb:potential 73 ;
     fb:preferredfoot "Right" ;
@@ -1687,6 +1721,9 @@ dbpedia:value a rdf:Property ;
         "12.0"^^xsd:float ;
     fb:passescompletepercentage "75.6"^^xsd:float,
         "87.8"^^xsd:float ;
+    fb:passing 82,
+        84 ;
+    fb:physicality 86 ;
     fb:position "GK" ;
     fb:potential 85 ;
     fb:preferredfoot "Right" ;
@@ -3229,6 +3266,9 @@ dbpedia:value a rdf:Property ;
         "8.33"^^xsd:float ;
     fb:passescompletepercentage "80.5"^^xsd:float,
         "87.9"^^xsd:float ;
+    fb:passing 76 ;
+    fb:physicality 82,
+        83 ;
     fb:position "GK" ;
     fb:potential 85 ;
     fb:preferredfoot "Right" ;
@@ -3569,6 +3609,9 @@ dbpedia:value a rdf:Property ;
         "8.17"^^xsd:float ;
     fb:passescompletepercentage "84.0"^^xsd:float,
         "84.7"^^xsd:float ;
+    fb:passing 62 ;
+    fb:physicality 73,
+        75 ;
     fb:position "GK" ;
     fb:potential 75 ;
     fb:preferredfoot "Right" ;
@@ -4095,6 +4138,9 @@ dbpedia:value a rdf:Property ;
         "8.78"^^xsd:float ;
     fb:passescompletepercentage "65.2"^^xsd:float,
         "66.3"^^xsd:float ;
+    fb:passing 79 ;
+    fb:physicality 82,
+        85 ;
     fb:position "GK" ;
     fb:potential 82,
         86 ;
@@ -5203,6 +5249,9 @@ dbpedia:value a rdf:Property ;
         "6.89"^^xsd:float ;
     fb:passescompletepercentage "67.4"^^xsd:float,
         "76.9"^^xsd:float ;
+    fb:passing 60,
+        63 ;
+    fb:physicality 80 ;
     fb:position "GK" ;
     fb:potential 79 ;
     fb:preferredfoot "Right" ;
@@ -5664,6 +5713,10 @@ dbpedia:value a rdf:Property ;
         "6.64"^^xsd:float ;
     fb:passescompletepercentage "82.2"^^xsd:float,
         "83.6"^^xsd:float ;
+    fb:passing 74,
+        75 ;
+    fb:physicality 86,
+        89 ;
     fb:position "GK" ;
     fb:potential 91 ;
     fb:preferredfoot "Left" ;
@@ -5830,6 +5883,10 @@ dbpedia:value a rdf:Property ;
         "9.83"^^xsd:float ;
     fb:passescompletepercentage "84.8"^^xsd:float,
         "86.9"^^xsd:float ;
+    fb:passing 87,
+        88 ;
+    fb:physicality 85,
+        88 ;
     fb:position "GK" ;
     fb:potential 89,
         92 ;
@@ -6002,6 +6059,10 @@ dbpedia:value a rdf:Property ;
         "6.71"^^xsd:float ;
     fb:passescompletepercentage "64.9"^^xsd:float,
         "78.6"^^xsd:float ;
+    fb:passing 74,
+        76 ;
+    fb:physicality 79,
+        83 ;
     fb:position "GK" ;
     fb:potential 80,
         84 ;
@@ -6533,6 +6594,9 @@ dbpedia:value a rdf:Property ;
         "15.7"^^xsd:float ;
     fb:passescompletepercentage "78.2"^^xsd:float,
         "78.3"^^xsd:float ;
+    fb:passing 79,
+        80 ;
+    fb:physicality 84 ;
     fb:position "GK" ;
     fb:potential 85,
         87 ;
@@ -6632,6 +6696,8 @@ dbpedia:value a rdf:Property ;
         "9.5"^^xsd:float ;
     fb:passescompletepercentage "57.5"^^xsd:float,
         "91.7"^^xsd:float ;
+    fb:passing 75 ;
+    fb:physicality 87 ;
     fb:position "GK" ;
     fb:potential 88 ;
     fb:preferredfoot "Right" ;
@@ -6792,6 +6858,10 @@ dbpedia:value a rdf:Property ;
         "11.0"^^xsd:float ;
     fb:passescompletepercentage "48.8"^^xsd:float,
         "69.0"^^xsd:float ;
+    fb:passing 75,
+        76 ;
+    fb:physicality 78,
+        80 ;
     fb:position "GK" ;
     fb:potential 82,
         84 ;
@@ -7380,6 +7450,10 @@ dbpedia:value a rdf:Property ;
         "13.3"^^xsd:float ;
     fb:passescompletepercentage "66.0"^^xsd:float,
         "70.1"^^xsd:float ;
+    fb:passing 66,
+        67 ;
+    fb:physicality 76,
+        81 ;
     fb:position "GK" ;
     fb:potential 77,
         81 ;
@@ -7781,6 +7855,8 @@ dbpedia:value a rdf:Property ;
         "9.76"^^xsd:float ;
     fb:passescompletepercentage "79.6"^^xsd:float,
         "80.6"^^xsd:float ;
+    fb:passing 79 ;
+    fb:physicality 79 ;
     fb:position "GK" ;
     fb:potential 82,
         83 ;
@@ -8785,6 +8861,8 @@ dbpedia:value a rdf:Property ;
         "7.11"^^xsd:float ;
     fb:passescompletepercentage "77.4"^^xsd:float,
         "79.6"^^xsd:float ;
+    fb:passing 71 ;
+    fb:physicality 79 ;
     fb:position "GK" ;
     fb:potential 80,
         82 ;
@@ -9847,6 +9925,10 @@ dbpedia:value a rdf:Property ;
         "22.8"^^xsd:float ;
     fb:passescompletepercentage "60.3"^^xsd:float,
         "62.3"^^xsd:float ;
+    fb:passing 72,
+        85 ;
+    fb:physicality 72,
+        78 ;
     fb:position "GK" ;
     fb:potential 74,
         79 ;
@@ -10010,6 +10092,9 @@ dbpedia:value a rdf:Property ;
         "10.1"^^xsd:float ;
     fb:passescompletepercentage "78.7"^^xsd:float,
         "83.9"^^xsd:float ;
+    fb:passing 70,
+        71 ;
+    fb:physicality 80 ;
     fb:position "GK" ;
     fb:potential 82,
         83 ;
@@ -10169,6 +10254,9 @@ dbpedia:value a rdf:Property ;
         "7.57"^^xsd:float ;
     fb:passescompletepercentage "68.8"^^xsd:float,
         "72.5"^^xsd:float ;
+    fb:passing 75 ;
+    fb:physicality 76,
+        80 ;
     fb:position "GK" ;
     fb:potential 79,
         80 ;
@@ -10449,6 +10537,8 @@ dbpedia:value a rdf:Property ;
         "10.7"^^xsd:float ;
     fb:passescompletepercentage "69.4"^^xsd:float,
         "71.8"^^xsd:float ;
+    fb:passing 69 ;
+    fb:physicality 75 ;
     fb:position "GK" ;
     fb:potential 76,
         77 ;
@@ -10676,6 +10766,9 @@ dbpedia:value a rdf:Property ;
         "7.79"^^xsd:float ;
     fb:passescompletepercentage "58.3"^^xsd:float,
         "63.6"^^xsd:float ;
+    fb:passing 78 ;
+    fb:physicality 87,
+        90 ;
     fb:position "GK" ;
     fb:potential 91,
         93 ;
@@ -12463,6 +12556,8 @@ dbpedia:value a rdf:Property ;
         "8.0"^^xsd:float ;
     fb:passescompletepercentage "72.2"^^xsd:float,
         "74.3"^^xsd:float ;
+    fb:passing 82 ;
+    fb:physicality 83 ;
     fb:position "GK" ;
     fb:potential 84,
         85 ;
@@ -13355,6 +13450,9 @@ dbpedia:value a rdf:Property ;
         "10.8"^^xsd:float ;
     fb:passescompletepercentage "49.2"^^xsd:float,
         "68.5"^^xsd:float ;
+    fb:passing 75 ;
+    fb:physicality 80,
+        83 ;
     fb:position "GK" ;
     fb:potential 81,
         83 ;
@@ -14178,6 +14276,8 @@ dbpedia:value a rdf:Property ;
         "9.86"^^xsd:float ;
     fb:passescompletepercentage "52.3"^^xsd:float,
         "61.8"^^xsd:float ;
+    fb:passing 87 ;
+    fb:physicality 80 ;
     fb:position "GK" ;
     fb:potential 84,
         85 ;
@@ -14838,6 +14938,10 @@ dbpedia:value a rdf:Property ;
         "16.4"^^xsd:float ;
     fb:passescompletepercentage "75.9"^^xsd:float,
         "80.0"^^xsd:float ;
+    fb:passing 64,
+        70 ;
+    fb:physicality 69,
+        78 ;
     fb:position "GK" ;
     fb:potential 71,
         76 ;
@@ -15773,6 +15877,9 @@ dbpedia:value a rdf:Property ;
         "6.75"^^xsd:float ;
     fb:passescompletepercentage "82.7"^^xsd:float,
         "85.6"^^xsd:float ;
+    fb:passing 85 ;
+    fb:physicality 76,
+        77 ;
     fb:position "GK" ;
     fb:potential 83 ;
     fb:preferredfoot "Right" ;
@@ -16003,6 +16110,9 @@ dbpedia:value a rdf:Property ;
         "12.0"^^xsd:float ;
     fb:passescompletepercentage "52.1"^^xsd:float,
         "58.6"^^xsd:float ;
+    fb:passing 74,
+        78 ;
+    fb:physicality 75 ;
     fb:position "GK" ;
     fb:potential 75,
         76 ;
@@ -16473,6 +16583,10 @@ dbpedia:value a rdf:Property ;
         "6.18"^^xsd:float ;
     fb:passescompletepercentage "74.1"^^xsd:float,
         "88.2"^^xsd:float ;
+    fb:passing 66,
+        67 ;
+    fb:physicality 73,
+        74 ;
     fb:position "GK" ;
     fb:potential 74,
         75 ;
@@ -18248,6 +18362,9 @@ dbpedia:value a rdf:Property ;
         "9.81"^^xsd:float ;
     fb:passescompletepercentage "75.0"^^xsd:float,
         "75.7"^^xsd:float ;
+    fb:passing 76 ;
+    fb:physicality 81,
+        84 ;
     fb:position "GK" ;
     fb:potential 82,
         84 ;
@@ -18717,6 +18834,10 @@ dbpedia:value a rdf:Property ;
         "11.8"^^xsd:float ;
     fb:passescompletepercentage "52.4"^^xsd:float,
         "69.8"^^xsd:float ;
+    fb:passing 65,
+        66 ;
+    fb:physicality 64,
+        67 ;
     fb:position "GK" ;
     fb:potential 69,
         71 ;
@@ -19435,6 +19556,10 @@ dbpedia:value a rdf:Property ;
         "8.83"^^xsd:float ;
     fb:passescompletepercentage "56.3"^^xsd:float,
         "61.5"^^xsd:float ;
+    fb:passing 72,
+        75 ;
+    fb:physicality 76,
+        78 ;
     fb:position "GK" ;
     fb:potential 79 ;
     fb:preferredfoot "Right" ;
@@ -22778,6 +22903,8 @@ dbpedia:value a rdf:Property ;
         "9.55"^^xsd:float ;
     fb:passescompletepercentage "70.2"^^xsd:float,
         "70.7"^^xsd:float ;
+    fb:passing 72 ;
+    fb:physicality 73 ;
     fb:position "GK" ;
     fb:potential 75,
         76 ;
@@ -22880,6 +23007,8 @@ dbpedia:value a rdf:Property ;
         "9.14"^^xsd:float ;
     fb:passescompletepercentage "73.9"^^xsd:float,
         "74.1"^^xsd:float ;
+    fb:passing 73 ;
+    fb:physicality 82 ;
     fb:position "GK" ;
     fb:potential 82,
         83 ;
@@ -23048,6 +23177,10 @@ dbpedia:value a rdf:Property ;
         "10.9"^^xsd:float ;
     fb:passescompletepercentage "81.6"^^xsd:float,
         "85.5"^^xsd:float ;
+    fb:passing 78,
+        80 ;
+    fb:physicality 79,
+        81 ;
     fb:position "GK" ;
     fb:potential 80,
         82 ;
@@ -23272,6 +23405,10 @@ dbpedia:value a rdf:Property ;
         "11.3"^^xsd:float ;
     fb:passescompletepercentage "56.0"^^xsd:float,
         "65.2"^^xsd:float ;
+    fb:passing 70,
+        72 ;
+    fb:physicality 72,
+        74 ;
     fb:position "GK" ;
     fb:potential 80 ;
     fb:preferredfoot "Right" ;
@@ -23554,6 +23691,9 @@ dbpedia:value a rdf:Property ;
         "11.5"^^xsd:float ;
     fb:passescompletepercentage "77.2"^^xsd:float,
         "79.1"^^xsd:float ;
+    fb:passing 85 ;
+    fb:physicality 84,
+        85 ;
     fb:position "GK" ;
     fb:potential 89,
         90 ;
@@ -29611,6 +29751,9 @@ dbpedia:value a rdf:Property ;
         "9.41"^^xsd:float ;
     fb:passescompletepercentage "71.1"^^xsd:float,
         "77.7"^^xsd:float ;
+    fb:passing 73 ;
+    fb:physicality 75,
+        76 ;
     fb:position "GK" ;
     fb:potential 81 ;
     fb:preferredfoot "Right" ;
@@ -29710,6 +29853,8 @@ dbpedia:value a rdf:Property ;
         "9.0"^^xsd:float ;
     fb:passescompletepercentage "90.2"^^xsd:float,
         "90.6"^^xsd:float ;
+    fb:passing 62 ;
+    fb:physicality 63 ;
     fb:position "GK" ;
     fb:potential 68,
         71 ;
@@ -30236,6 +30381,9 @@ dbpedia:value a rdf:Property ;
     fb:passescompletelong "8.71"^^xsd:float,
         "9.91"^^xsd:float ;
     fb:passescompletepercentage "74.6"^^xsd:float ;
+    fb:passing 70,
+        71 ;
+    fb:physicality 76 ;
     fb:position "GK" ;
     fb:potential 80,
         84 ;
@@ -30285,6 +30433,10 @@ dbpedia:value a rdf:Property ;
         "8.23"^^xsd:float ;
     fb:passescompletepercentage "70.0"^^xsd:float,
         "78.0"^^xsd:float ;
+    fb:passing 73,
+        74 ;
+    fb:physicality 76,
+        77 ;
     fb:position "GK" ;
     fb:potential 81,
         82 ;
@@ -30333,6 +30485,10 @@ dbpedia:value a rdf:Property ;
         "12.1"^^xsd:float ;
     fb:passescompletepercentage "79.7"^^xsd:float,
         "82.6"^^xsd:float ;
+    fb:passing 76,
+        78 ;
+    fb:physicality 68,
+        75 ;
     fb:position "GK" ;
     fb:potential 75,
         80 ;
@@ -30796,6 +30952,10 @@ dbpedia:value a rdf:Property ;
         "8.27"^^xsd:float ;
     fb:passescompletepercentage "55.1"^^xsd:float,
         "69.1"^^xsd:float ;
+    fb:passing 59,
+        64 ;
+    fb:physicality 71,
+        72 ;
     fb:position "GK" ;
     fb:potential 77,
         78 ;
@@ -31572,6 +31732,10 @@ dbpedia:value a rdf:Property ;
         "12.9"^^xsd:float ;
     fb:passescompletepercentage "62.1"^^xsd:float,
         "79.3"^^xsd:float ;
+    fb:passing 66,
+        71 ;
+    fb:physicality 72,
+        74 ;
     fb:position "GK" ;
     fb:potential 76,
         77 ;
@@ -31793,6 +31957,9 @@ dbpedia:value a rdf:Property ;
         "8.26"^^xsd:float ;
     fb:passescompletepercentage "86.6"^^xsd:float,
         "89.1"^^xsd:float ;
+    fb:passing 70 ;
+    fb:physicality 77,
+        78 ;
     fb:position "GK" ;
     fb:potential 81,
         86 ;
@@ -35080,6 +35247,8 @@ dbpedia:value a rdf:Property ;
         "11.7"^^xsd:float ;
     fb:passescompletepercentage "65.7"^^xsd:float,
         "69.4"^^xsd:float ;
+    fb:passing 73 ;
+    fb:physicality 76 ;
     fb:position "GK" ;
     fb:potential 81 ;
     fb:preferredfoot "Right" ;
@@ -37526,6 +37695,8 @@ dbpedia:value a rdf:Property ;
         "5.53"^^xsd:float ;
     fb:passescompletepercentage "87.1"^^xsd:float,
         "91.2"^^xsd:float ;
+    fb:passing 79 ;
+    fb:physicality 85 ;
     fb:position "GK" ;
     fb:potential 92,
         93 ;
@@ -39560,6 +39731,10 @@ dbpedia:value a rdf:Property ;
         "8.76"^^xsd:float ;
     fb:passescompletepercentage "61.1"^^xsd:float,
         "68.7"^^xsd:float ;
+    fb:passing 68,
+        69 ;
+    fb:physicality 74,
+        77 ;
     fb:position "GK" ;
     fb:potential 83,
         85 ;
@@ -42005,6 +42180,10 @@ dbpedia:value a rdf:Property ;
         "7.26"^^xsd:float ;
     fb:passescompletepercentage "66.5"^^xsd:float,
         "68.2"^^xsd:float ;
+    fb:passing 71,
+        85 ;
+    fb:physicality 71,
+        78 ;
     fb:position "GK" ;
     fb:potential 82,
         86 ;
@@ -43008,6 +43187,10 @@ dbpedia:value a rdf:Property ;
         "8.63"^^xsd:float ;
     fb:passescompletepercentage "81.4"^^xsd:float,
         "83.8"^^xsd:float ;
+    fb:passing 72,
+        73 ;
+    fb:physicality 73,
+        74 ;
     fb:position "GK" ;
     fb:potential 80,
         82 ;
@@ -43671,6 +43854,10 @@ dbpedia:value a rdf:Property ;
         "9.0"^^xsd:float ;
     fb:passescompletepercentage "81.7"^^xsd:float,
         "82.0"^^xsd:float ;
+    fb:passing 74,
+        77 ;
+    fb:physicality 74,
+        79 ;
     fb:position "GK" ;
     fb:potential 84,
         88 ;
@@ -46316,6 +46503,9 @@ dbpedia:value a rdf:Property ;
         "11.5"^^xsd:float ;
     fb:passescompletepercentage "68.9"^^xsd:float,
         "69.9"^^xsd:float ;
+    fb:passing 61 ;
+    fb:physicality 65,
+        67 ;
     fb:position "GK" ;
     fb:potential 73,
         76 ;
@@ -51243,6 +51433,10 @@ dbpedia:value a rdf:Property ;
         "9.45"^^xsd:float ;
     fb:passescompletepercentage "74.3"^^xsd:float,
         "78.2"^^xsd:float ;
+    fb:passing 65,
+        74 ;
+    fb:physicality 74,
+        78 ;
     fb:position "GK" ;
     fb:potential 78,
         82 ;
@@ -54488,6 +54682,9 @@ dbpedia:value a rdf:Property ;
         "7.18"^^xsd:float ;
     fb:passescompletepercentage "60.1"^^xsd:float,
         "73.2"^^xsd:float ;
+    fb:passing 73 ;
+    fb:physicality 72,
+        73 ;
     fb:position "GK" ;
     fb:potential 84,
         85 ;
@@ -54653,6 +54850,10 @@ dbpedia:value a rdf:Property ;
         "9.2"^^xsd:float ;
     fb:passescompletepercentage "68.6"^^xsd:float,
         "78.8"^^xsd:float ;
+    fb:passing 69,
+        78 ;
+    fb:physicality 67,
+        68 ;
     fb:position "GK" ;
     fb:potential 79,
         80 ;
@@ -56036,6 +56237,9 @@ dbpedia:value a rdf:Property ;
         "8.0"^^xsd:float ;
     fb:passescompletepercentage "87.8"^^xsd:float,
         "90.5"^^xsd:float ;
+    fb:passing 73 ;
+    fb:physicality 74,
+        75 ;
     fb:position "GK" ;
     fb:potential 84,
         85 ;
@@ -59933,6 +60137,10 @@ dbpedia:value a rdf:Property ;
         "6.0"^^xsd:float ;
     fb:passescompletepercentage "70.0"^^xsd:float,
         "84.0"^^xsd:float ;
+    fb:passing 66,
+        68 ;
+    fb:physicality 61,
+        63 ;
     fb:position "GK" ;
     fb:potential 77,
         78 ;
@@ -67189,6 +67397,10 @@ dbpedia:value a rdf:Property ;
         "8.94"^^xsd:float ;
     fb:passescompletepercentage "58.2"^^xsd:float,
         "76.0"^^xsd:float ;
+    fb:passing 71,
+        74 ;
+    fb:physicality 76,
+        79 ;
     fb:position "GK" ;
     fb:potential 83,
         84 ;
@@ -67817,6 +68029,8 @@ dbpedia:value a rdf:Property ;
         "11.3"^^xsd:float ;
     fb:passescompletepercentage "61.1"^^xsd:float,
         "70.0"^^xsd:float ;
+    fb:passing 60 ;
+    fb:physicality 55 ;
     fb:position "GK" ;
     fb:potential 73 ;
     fb:preferredfoot "Left" ;

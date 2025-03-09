@@ -208,12 +208,6 @@ sportsschema:touches a rdf:Property ;
     rdfs:range rdfs:Literal ;
     owl:equivalentProperty fb:position .
 
-<https://www.wikidata.org/wiki/Property:P54> a rdf:Property ;
-    rdfs:label "club" ;
-    rdfs:domain sofifa:player ;
-    rdfs:range rdf:Seq ;
-    owl:equivalentProperty fb:club .
-
 <https://www.wikidata.org/wiki/Property:P8006> a rdf:Property ;
     rdfs:label "preferredfoot" ;
     rdfs:domain sofifa:player ;

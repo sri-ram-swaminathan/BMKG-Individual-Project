@@ -37,6 +37,7 @@ achieve a similar test score accuracy of ~ 67%.
     ```
 ## Directory Structure 
 BMKG-Individual-Project/
+
 ├── code/                   
 │   ├── clean.ipynb         
 │   ├── build.ipynb         

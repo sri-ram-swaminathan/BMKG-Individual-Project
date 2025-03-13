@@ -35,26 +35,3 @@ achieve a similar test score accuracy of ~ 67%.
     ```bash
     pip install -r requirements.txt
     ```
-## Directory Structure 
-BMKG-Individual-Project/
-
-├── code/                   
-│   ├── clean.ipynb         
-│   ├── build.ipynb         
-│   └── mine.ipynb         
-├── data/                   
-│   ├── cleaned/            
-│   │   ├── Data 21.csv      
-│   │   └── Data 22.csv      
-│   └── original/           
-│       ├── FIFA 21.csv       
-│       ├── FIFA 22.csv       
-│       ├── Stats 21.csv       
-│       └── Stats 22.csv       
-├── kg/                     
-│   ├── players.ttl           
-│   └── schema.ttl          
-├── LICENSE                
-├── Project Report.pdf     
-├── README.md             
-└── requirements.txt        
